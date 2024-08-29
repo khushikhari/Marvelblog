@@ -14,7 +14,7 @@ const fs = require('fs');
 const salt = bcrypt.genSaltSync(10);
 const secret = 'asdfe45we45w345wegw345werjktjwertkj';
 
-const allowedOrigins = ['http://localhost:3000', 'https://your-app.vercel.app'];
+const allowedOrigins = ['http://localhost:3000', 'https://marvelblog-mi9u.vercel.app/'];
 
 app.use(cors({
   credentials: true,
